@@ -1,26 +1,29 @@
-
 import "./App.css";
 import Header from "./components/Header";
+import GameCard from "./components/GameCard";
 import Footer from "./components/Footer";
 
 function App() {
     return (
         <div className="container">
-
-            <Header />
-
-            <div className="games">
-                <h2>Welkom bij mijn eerste React-applicatie!</h2>
-
-                <p>Naam: Rabaz Abdulkarim</p>
-
-                <p>Studentnummer: 2243902</p>
-
-                <p>Klas: g3</p>
+            <Header title="🎮 Game Collection" />
+            
+            <div className="game-list">
+                <GameCard
+                    title="Minecraft"
+                    platform="PC"
+                />
+                <GameCard
+                    title="Mario Kart"
+                    platform="Nintendo Switch"
+                />
+                <GameCard
+                    title="Rocket League"
+                    platform="PlayStation 5"
+                />
             </div>
 
             <Footer />
-
         </div>
     );
 }
