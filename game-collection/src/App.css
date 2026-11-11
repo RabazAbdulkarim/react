@@ -52,3 +52,18 @@ footer {
     color: #777;
     font-size: 14px;
 }
+
+.favorite-button {
+    margin-top: 12px;
+    padding: 8px 14px;
+    background-color: #6e25eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.favorite-button:hover {
+    background-color: #5b1fd0;
+}
