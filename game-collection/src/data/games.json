@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "title": "⛏️ Minecraft",
+    "platform": "PC",
+    "genre": "Sandbox",
+    "rating": 9.5,
+    "year": 2011
+  },
+  {
+    "id": 2,
+    "title": "🏎️ Mario Kart World",
+    "platform": "Nintendo Switch 2",
+    "genre": "Race",
+    "rating": 9.3,
+    "year": 2025
+  },
+  {
+    "id": 3,
+    "title": "🚗 Rocket League",
+    "platform": "PlayStation 5",
+    "genre": "Sport",
+    "rating": 8.9,
+    "year": 2015
+  },
+  {
+    "id": 4,
+    "title": "⚽ EA Sports FC 26",
+    "platform": "PlayStation 5",
+    "genre": "Sport",
+    "rating": 8.6,
+    "year": 2025
+  },
+  {
+    "id": 5,
+    "title": "🗡️ The Legend of Zelda",
+    "platform": "Nintendo Switch",
+    "genre": "Adventure",
+    "rating": 9.8,
+    "year": 2023
+  },
+  {
+    "id": 6,
+    "title": "🚌 Fortnite",
+    "platform": "PC",
+    "genre": "Battle Royale",
+    "rating": 8.7,
+    "year": 2017
+  },
+  {
+    "id": 7,
+    "title": "🤖 Cyberpunk 2077",
+    "platform": "PC",
+    "genre": "RPG",
+    "rating": 8.8,
+    "year": 2020
+  },
+  {
+    "id": 8,
+    "title": "🤠 Red Dead Redemption 2",
+    "platform": "PC",
+    "genre": "Adventure",
+    "rating": 9.9,
+    "year": 2018
+  },
+  {
+    "id": 9,
+    "title": "🚔 GTA V",
+    "platform": "PC",
+    "genre": "Action",
+    "rating": 9.8,
+    "year": 2013
+  },
+  {
+    "id": 10,
+    "title": "👑 Elden Ring",
+    "platform": "PlayStation 5",
+    "genre": "RPG",
+    "rating": 9.7,
+    "year": 2022
+  },
+  {
+    "id": 11,
+    "title": "🚀 ROC Amstelland Dev Challenge",
+    "platform": "ESP32 / Raspberry Pi / Arduino",
+    "genre": "Developer Event",
+    "rating": 10.0,
+    "year": 2027
+  },
+  {
+    "id": 12,
+    "title": "Terraria",
+    "platform": "PC",
+    "genre": "Sandbox",
+    "rating": 9.0,
+    "year": 2011
+  },
+  {
+    "id": 13,
+    "title": "Valorant",
+    "platform": "PC",
+    "genre": "Tactical Shooter",
+    "rating": 8.5,
+    "year": 2020
+  },
+  {
+    "id": 14,
+    "title": "League of Legends",
+    "platform": "PC",
+    "genre": "MOBA",
+    "rating": 8.8,
+    "year": 2009
+  },
+  {
+    "id": 15,
+    "title": "Roblox",
+    "platform": "PC",
+    "genre": "Sandbox",
+    "rating": 8.2,
+    "year": 2006
+  },
+  {
+    "id": 16,
+    "title": "Animal Crossing: New Horizons",
+    "platform": "Nintendo Switch",
+    "genre": "Simulation",
+    "rating": 9.0,
+    "year": 2020
+  },
+  {
+    "id": 17,
+    "title": "The Witcher 3",
+    "platform": "PlayStation 5",
+    "genre": "RPG",
+    "rating": 9.7,
+    "year": 2015
+  },
+  {
+    "id": 18,
+    "title": "Hogwarts Legacy",
+    "platform": "PlayStation 5",
+    "genre": "Action RPG",
+    "rating": 8.5,
+    "year": 2023
+  },
+  {
+    "id": 19,
+    "title": "Assassin's Creed Shadows",
+    "platform": "PlayStation 5",
+    "genre": "Action Adventure",
+    "rating": 8.4,
+    "year": 2025
+  },
+  {
+    "id": 20,
+    "title": "Call of Duty Black Ops 7",
+    "platform": "PlayStation 5",
+    "genre": "First-Person Shooter",
+    "rating": 8.3,
+    "year": 2025
+  },
+  {
+    "id": 21,
+    "title": "Forza Horizon 5",
+    "platform": "PC",
+    "genre": "Racing",
+    "rating": 9.2,
+    "year": 2021
+  }
+]
