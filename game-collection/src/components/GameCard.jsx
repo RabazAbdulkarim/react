@@ -4,28 +4,33 @@ function GameCard(props) {
     const [favorite, setFavorite] = useState(false);
 
     return (
-        <div className="game-card">
+        <article className="game-card">
             {props.image && (
                 <img
                     src={`/images/${props.image}`}
-                    alt={props.title}
+                    alt={`AI-afbeelding voor ${props.title}`}
                     className="game-image"
                 />
             )}
 
-            <h2>{props.title}</h2>
-            <p>Platform: {props.platform}</p>
-            <p>Genre: {props.genre}</p>
-            <p>Rating: ⭐ {props.rating}</p>
-            <p>Jaar: {props.year}</p>
+            <div className="game-card-content">
+                <h2>{props.title}</h2>
 
-            <button
-                className="favorite-button"
-                onClick={() => setFavorite(!favorite)}
-            >
-                {favorite ? "❤️ Favoriet" : "🤍 Favoriet"}
-            </button>
-        </div>
+                <p><strong>Platform:</strong> {props.platform}</p>
+                <p><strong>Genre:</strong> {props.genre}</p>
+                <p><strong>Rating:</strong> ⭐ {props.rating}</p>
+                <p><strong>Jaar:</strong> {props.year}</p>
+                <p><strong>Developer:</strong> {props.developer}</p>
+                <p><strong>Multiplayer:</strong> {props.multiplayer}</p>
+
+                <button
+                    className="favorite-button"
+                    onClick={() => setFavorite(!favorite)}
+                >
+                    {favorite ? "❤️ Favoriet" : "🤍 Favoriet"}
+                </button>
+            </div>
+        </article>
     );
 }
 
