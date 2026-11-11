@@ -5,7 +5,8 @@
     "platform": "PC",
     "genre": "Sandbox",
     "rating": 9.5,
-    "year": 2011
+    "year": 2011,
+    "image": "minecraft.jpg"
   },
   {
     "id": 2,

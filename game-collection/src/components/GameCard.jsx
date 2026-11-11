@@ -5,6 +5,14 @@ function GameCard(props) {
 
     return (
         <div className="game-card">
+            {props.image && (
+                <img
+                    src={`/images/${props.image}`}
+                    alt={props.title}
+                    className="game-image"
+                />
+            )}
+
             <h2>{props.title}</h2>
             <p>Platform: {props.platform}</p>
             <p>Genre: {props.genre}</p>

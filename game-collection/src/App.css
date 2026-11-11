@@ -100,3 +100,11 @@ footer {
 .favorite-button:hover {
     background-color: #5b1fd0;
 }
+
+.game-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
