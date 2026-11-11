@@ -67,3 +67,12 @@ footer {
 .favorite-button:hover {
     background-color: #5b1fd0;
 }
+
+.search-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
